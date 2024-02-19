@@ -1,0 +1,97 @@
+/*
+Student Name: AAron Cook
+File Name: styles.css
+Date: 02/17/2024
+*/
+
+  /*  CSS reset  */
+
+
+  body, header, nav, main, footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+
+    /* Hero Image and text */
+
+    .heroimage{    
+        background-image: linear-gradient(to right, blue, white);
+        border-bottom-left-radius: 3em;
+        border-bottom-right-radius: 3em;
+        height: 600px;
+
+    }
+
+    .herotext{
+        text-align: center;
+        width: 25%;
+        float: left;
+        font-size: 1.5em;
+    }
+
+    /* Nav area */
+
+    nav{
+        text-align: center;
+    }
+
+    nav li{
+        list-style: none;
+        clear: both;
+        display: inline-block;
+        margin-left: 50px;
+    }
+
+    nav li a{
+        text-decoration: none;
+        color: white;
+        border-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a:hover{
+        color: red;
+        font-size: 1.1em;
+    }
+
+    /* Main Content */
+    
+    main{
+        overflow: hidden;
+    }
+
+    #main1{
+        background-image: linear-gradient(white, blue);
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 1.1em;
+        height: 650px;
+        width: 49%;
+        margin: 0%;
+        float: left;
+        padding-right: 1%;
+    }
+
+    #main2{
+        background-image: linear-gradient(white, blue);
+        height: 650px;
+        width: 49%;
+        float: right;
+        padding-left: 1%;
+        }
+
+    #april2{
+        margin-left: 125px;
+        margin-top: 150px;
+    }
+
+
+
+    /* Footer content */
+
+    footer{
+        text-align: center;
+        border: solid;
+    }
+    
